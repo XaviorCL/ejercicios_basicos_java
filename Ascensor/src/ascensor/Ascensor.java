@@ -28,10 +28,10 @@ public class Ascensor {
                 
             if(usuRespuesta >= pisoMim && usuRespuesta <= pisoMax ){
                 if( usuRespuesta > pisoActual){
-                     System.out.println("Subiendo hijo de puta..... ");
+                     System.out.println("ascensor subiendo ..... ");
                      pisoActual = usuRespuesta; 
                     }else{
-                        System.out.println("bajando hijo de puta..... ");
+                        System.out.println("ascensor bajando ..... ");
                         pisoActual = usuRespuesta;
                     }
               
@@ -39,7 +39,7 @@ public class Ascensor {
                 usuRespuesta = sc.nextInt();       
             
             }else{
-                System.out.println("El edificio no tiene tantos pisos saco e wea... MIRA BIEN!");
+                System.out.println("El edificio no tiene tantos pisos .. mire bien por favor!");
                 System.out.println("estamos en el piso "+pisoActual);
                 //System.exit(0);
                 usuRespuesta = 1;
